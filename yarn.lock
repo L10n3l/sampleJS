@@ -99,6 +99,13 @@ abbrev@1.0.x:
   resolved "https://artifactory-iva.si.francetelecom.fr/artifactory/api/npm/npmproxy/abbrev/-/abbrev-1.0.9.tgz#91b4792588a7738c25f35dd6f63752a2f8776135"
   integrity sha1-kbR5JYinc4wl813W9jdSovh3YTU=
 
+agent-base@^4.3.0:
+  version "4.3.0"
+  resolved "https://artifactory-iva.si.francetelecom.fr/artifactory/api/npm/npmproxy/agent-base/-/agent-base-4.3.0.tgz#8165f01c436009bccad0b1d122f05ed770efc6ee"
+  integrity sha1-gWXwHENgCbzK0LHRIvBe13Dvxu4=
+  dependencies:
+    es6-promisify "^5.0.0"
+
 amdefine@>=0.0.4:
   version "1.0.1"
   resolved "https://artifactory-iva.si.francetelecom.fr/artifactory/api/npm/npmproxy/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
@@ -144,6 +151,11 @@ argparse@^1.0.7:
   integrity sha1-vNZ5HqWuCXJeF+WtmIE0zUCz2RE=
   dependencies:
     sprintf-js "~1.0.2"
+
+argv@^0.0.2:
+  version "0.0.2"
+  resolved "https://artifactory-iva.si.francetelecom.fr/artifactory/api/npm/npmproxy/argv/-/argv-0.0.2.tgz#ecbd16f8949b157183711b1bda334f37840185ab"
+  integrity sha1-7L0W+JSbFXGDcRsb2jNPN4QBhas=
 
 async@1.x:
   version "1.5.2"
@@ -201,6 +213,17 @@ cliui@^5.0.0:
     strip-ansi "^5.2.0"
     wrap-ansi "^5.1.0"
 
+codecov@^3.6.1:
+  version "3.6.1"
+  resolved "https://artifactory-iva.si.francetelecom.fr/artifactory/api/npm/npmproxy/codecov/-/codecov-3.6.1.tgz#f39fc49413445555f81f8e3ca5730992843b4517"
+  integrity sha1-85/ElBNEVVX4H448pXMJkoQ7RRc=
+  dependencies:
+    argv "^0.0.2"
+    ignore-walk "^3.0.1"
+    js-yaml "^3.13.1"
+    teeny-request "^3.11.3"
+    urlgrey "^0.4.4"
+
 color-convert@^1.9.0:
   version "1.9.3"
   resolved "https://artifactory-iva.si.francetelecom.fr/artifactory/api/npm/npmproxy/color-convert/-/color-convert-1.9.3.tgz#bb71850690e1f136567de629d2d5471deda4c1e8"
@@ -254,7 +277,7 @@ cross-spawn@^4:
     lru-cache "^4.0.1"
     which "^1.2.9"
 
-debug@3.2.6:
+debug@3.2.6, debug@^3.1.0:
   version "3.2.6"
   resolved "https://artifactory-iva.si.francetelecom.fr/artifactory/api/npm/npmproxy/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
   integrity sha1-6D0X3hbYp++3cX7b5fsQE17uYps=
@@ -338,6 +361,18 @@ es6-error@^4.0.1:
   version "4.1.1"
   resolved "https://artifactory-iva.si.francetelecom.fr/artifactory/api/npm/npmproxy/es6-error/-/es6-error-4.1.1.tgz#9e3af407459deed47e9a91f9b885a84eb05c561d"
   integrity sha1-njr0B0Wd7tR+mpH5uIWoTrBcVh0=
+
+es6-promise@^4.0.3:
+  version "4.2.8"
+  resolved "https://artifactory-iva.si.francetelecom.fr/artifactory/api/npm/npmproxy/es6-promise/-/es6-promise-4.2.8.tgz#4eb21594c972bc40553d276e510539143db53e0a"
+  integrity sha1-TrIVlMlyvEBVPSduUQU5FD21Pgo=
+
+es6-promisify@^5.0.0:
+  version "5.0.0"
+  resolved "https://artifactory-iva.si.francetelecom.fr/artifactory/api/npm/npmproxy/es6-promisify/-/es6-promisify-5.0.0.tgz#5109d62f3e56ea967c4b63505aef08291c8a5203"
+  integrity sha1-UQnWLz5W6pZ8S2NQWu8IKRyKUgM=
+  dependencies:
+    es6-promise "^4.0.3"
 
 escape-string-regexp@1.0.5, escape-string-regexp@^1.0.5:
   version "1.0.5"
@@ -526,6 +561,21 @@ hosted-git-info@^2.1.4:
   version "2.8.5"
   resolved "https://artifactory-iva.si.francetelecom.fr/artifactory/api/npm/npmproxy/hosted-git-info/-/hosted-git-info-2.8.5.tgz#759cfcf2c4d156ade59b0b2dfabddc42a6b9c70c"
   integrity sha1-dZz88sTRVq3lmwst+r3cQqa5xww=
+
+https-proxy-agent@^2.2.1:
+  version "2.2.4"
+  resolved "https://artifactory-iva.si.francetelecom.fr/artifactory/api/npm/npmproxy/https-proxy-agent/-/https-proxy-agent-2.2.4.tgz#4ee7a737abd92678a293d9b34a1af4d0d08c787b"
+  integrity sha1-TuenN6vZJniik9mzShr00NCMeHs=
+  dependencies:
+    agent-base "^4.3.0"
+    debug "^3.1.0"
+
+ignore-walk@^3.0.1:
+  version "3.0.3"
+  resolved "https://artifactory-iva.si.francetelecom.fr/artifactory/api/npm/npmproxy/ignore-walk/-/ignore-walk-3.0.3.tgz#017e2447184bfeade7c238e4aefdd1e8f95b1e37"
+  integrity sha1-AX4kRxhL/q3nwjjkrv3R6PlbHjc=
+  dependencies:
+    minimatch "^3.0.4"
 
 imurmurhash@^0.1.4:
   version "0.1.4"
@@ -835,6 +885,11 @@ node-environment-flags@1.0.5:
   dependencies:
     object.getownpropertydescriptors "^2.0.3"
     semver "^5.7.0"
+
+node-fetch@^2.2.0:
+  version "2.6.0"
+  resolved "https://artifactory-iva.si.francetelecom.fr/artifactory/api/npm/npmproxy/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
+  integrity sha1-5jNFY4bUqlWGP2dqerDaqP3ssP0=
 
 nopt@3.x:
   version "3.0.6"
@@ -1263,6 +1318,15 @@ supports-color@^6.1.0:
   dependencies:
     has-flag "^3.0.0"
 
+teeny-request@^3.11.3:
+  version "3.11.3"
+  resolved "https://artifactory-iva.si.francetelecom.fr/artifactory/api/npm/npmproxy/teeny-request/-/teeny-request-3.11.3.tgz#335c629f7645e5d6599362df2f3230c4cbc23a55"
+  integrity sha1-M1xin3ZF5dZZk2LfLzIwxMvCOlU=
+  dependencies:
+    https-proxy-agent "^2.2.1"
+    node-fetch "^2.2.0"
+    uuid "^3.3.2"
+
 test-exclude@^5.2.3:
   version "5.2.3"
   resolved "https://artifactory-iva.si.francetelecom.fr/artifactory/api/npm/npmproxy/test-exclude/-/test-exclude-5.2.3.tgz#c3d3e1e311eb7ee405e092dac10aefd09091eac0"
@@ -1292,6 +1356,11 @@ uglify-js@^3.1.4:
   dependencies:
     commander "~2.20.3"
     source-map "~0.6.1"
+
+urlgrey@^0.4.4:
+  version "0.4.4"
+  resolved "https://artifactory-iva.si.francetelecom.fr/artifactory/api/npm/npmproxy/urlgrey/-/urlgrey-0.4.4.tgz#892fe95960805e85519f1cd4389f2cb4cbb7652f"
+  integrity sha1-iS/pWWCAXoVRnxzUOJ8stMu3ZS8=
 
 uuid@^3.3.2:
   version "3.3.3"

@@ -81,12 +81,26 @@ Avec Coveralls (démarche similaire à Travis)
 * Autoriser Coveralls sur Gitbub
 * Sélectionner le repo à utiliser
 
+Encrypter le token [travis](https://docs.travis-ci.com/user/encryption-keys/#usage)
+apt install ruby ruby-dev
+sudo gem install travis
+travis encrypt 9935689581a42e602837938050853a2ac0ea52d1
+
+copier/coller dans .travis.yml
+
+
 Dans le repo, modifier le fichier .travis.yml
 
 ```sh
 language: node_js
 node_js:
  - "node"
+dist: trusty
+addons:
+  sonarcloud:
+    organization: "l10n3l"
+    token:
+      secure: ""
 install:
   - npm install -g nyc coveralls mocha mocha-lcov-reporter 
 script:
@@ -94,6 +108,22 @@ script:
   - sonar-scanner
 ```
 
+Crééer un fichier sonar-project.properties
+sonar.projectKey=L10n3l_sampleJS
+sonar.organization=l10n3l
+
+```sh
+# this is the name and version displayed in the SonarCloud UI.
+sonar.projectName=sampleJS
+sonar.projectVersion=1.0
+ 
+# Path is relative to the sonar-project.properties file. Replace "\" by "/" on Windows.
+# This property is optional if sonar.modules is set. 
+sonar.sources=.
+ 
+# Encoding of the source code. Default is default system encoding
+#sonar.sourceEncoding=UTF-8
+```
 
 
 ## ESlint

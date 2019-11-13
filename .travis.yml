@@ -6,7 +6,7 @@ addons:
   sonarcloud:
     organization: "l10n3l"
     token:
-      secure: "travis encrypt 9935689581a42e602837938050853a2ac0ea52d1"
+      secure: "qmVxfoAjQUhdD0r5CHZ2awx9R8PUwsLwhaNDSH177708bkTpa+AoWSbqU74twqHnl+sSl0Ggz1i78bVxLhJA27cRsE8+HbZyqkpzJdU/TknXt1xGGwcPkDej8hOw5LsMT0o3JL1m5QGq/n7HtgTdoTN3I5piAfXOwLpcID4dsFsNURRN9+8VliJaf4YjbqMxZp1tA6FCxKSwQId6M0hBNo5ylA9kc3AOVN9wnydFf+kKK/Ol9UEJPVrBCDZz/3Yr+2tlMmRxwzoGH1j/F2w88jtLz/nNa3rJCvmk0MCJLQ1SyWRhyYtdZ3oHfmGBi6emyUr8yEJraOlhLWX5/oWxe94Q92uTVVbdihwDWcgMHMQD3ItB9sHgGrtmYYz5h9b+8Vg4qX1pzvu9jziwLxODasI29VZFN+k9huBqeDfE77qHMzpsZKZRJcVEQWQZwdGKni1isTFcem5Il5+Pge5hc/vSSCSFL8EIszLt/j/J3YLrix0IUjuz3HC8xUFwIHplAuEXoFRGTGdIUIBiWngY06Wl/umw/WxRHRWwRKZKwvAjHtqhgFPUHUDbbWfsPhdu9VDp/LJ4NHp5AD8115B6KpebsKG4jCOagKy6a8+oxstO/EYCWfxFm84Ug7NIwPmsQbjp42x5cN0mQ6aUgkwZEuxJRrsIR7EyQt7u0GSOA/A="
 install:
   - npm install -g nyc coveralls mocha mocha-lcov-reporter 
 script:

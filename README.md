@@ -74,6 +74,27 @@ A chaque push dans Github, les 2 webhooks seront déclenchés : Travis et Covera
 
 ATTENTION : les badges sont relatifs à une branche (si plusieurs branches alors modifier le README pour faire apparaître les badges par branche)
 
+## Sonar
+
+Avec Coveralls (démarche similaire à Travis)
+* Se connecter à [SonarCloud](https://sonarcloud.io/)  avec les identifiants Github
+* Autoriser Coveralls sur Gitbub
+* Sélectionner le repo à utiliser
+
+Dans le repo, modifier le fichier .travis.yml
+
+```sh
+language: node_js
+node_js:
+ - "node"
+install:
+  - npm install -g nyc coveralls mocha mocha-lcov-reporter 
+script:
+  - npm run coverage
+  - sonar-scanner
+```
+
+
 
 ## ESlint
 

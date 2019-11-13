@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/L10n3l/sampleJS.svg?branch=master)](https://travis-ci.org/L10n3l/sampleJS)
 [![Coverage Status](https://coveralls.io/repos/github/L10n3l/sampleJS/badge.svg?branch=master)](https://coveralls.io/github/L10n3l/sampleJS?branch=master)
-[![<Sonarcloud quality gate>](https://sonarcloud.io/api/project_badges/measure?project=L10n3l&metric=alert_status)](https://sonarcloud.io/dashboard?id=L10n3l)
+[![<Sonarcloud quality gate>](https://sonarcloud.io/api/project_badges/measure?project=L10n3l_sampleJS&metric=alert_status)](https://sonarcloud.io/dashboard?id=L10n3l_sampleJS)
 
 
 # sampleJS

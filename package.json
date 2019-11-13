@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "coverage": "nyc npm run test"
+    "coverage": "codecov": "./node_modules/.bin/codecov"
   },
   "license": "MIT",
   "devDependencies": {

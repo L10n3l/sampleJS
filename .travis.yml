@@ -4,5 +4,4 @@ node_js:
 install:
   - npm install -g nyc coveralls mocha mocha-lcov-reporter 
 script:
-  - npm run test
   - npm run coverage

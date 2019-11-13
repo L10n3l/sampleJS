@@ -1,7 +1,14 @@
 language: node_js
 node_js:
  - "node"
+dist: trusty
+addons:
+  sonarcloud:
+    organization: "l10n3l"
+    token:
+      secure: "512cc6f2a3d175c6fad52762f7a16aa"
 install:
   - npm install -g nyc coveralls mocha mocha-lcov-reporter 
 script:
   - npm run coverage
+

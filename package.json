@@ -2,11 +2,15 @@
   "name": "sampleJs",
   "version": "1.0.0",
   "main": "index.js",
-"scripts": {
-    "test": "mocha"
-},
+  "scripts": {
+    "test": "mocha",
+     "coverage": "nyc npm run test"
+  },
   "license": "MIT",
   "devDependencies": {
     "mocha": "^6.2.2"
+  },
+  "dependencies": {
+    "nyc": "^14.1.1"
   }
 }

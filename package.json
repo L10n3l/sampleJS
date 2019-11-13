@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "coverage": "./node_modules/.bin/codecov"
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "license": "MIT",
   "devDependencies": {

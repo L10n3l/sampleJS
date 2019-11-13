@@ -6,7 +6,7 @@ addons:
   sonarcloud:
     organization: "l10n3l"
     token:
-      secure: "512cc6f2a3d175c6fad52762f7a16aa"
+      secure: "travis encrypt 9935689581a42e602837938050853a2ac0ea52d1"
 install:
   - npm install -g nyc coveralls mocha mocha-lcov-reporter 
 script:

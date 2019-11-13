@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "coverage": "codecov": "./node_modules/.bin/codecov"
+    "coverage": "./node_modules/.bin/codecov"
   },
   "license": "MIT",
   "devDependencies": {

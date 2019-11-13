@@ -1,0 +1,42 @@
+Arguments: 
+  /home/loig7430/.nvm/versions/node/v10.16.3/bin/node /usr/share/yarn/bin/yarn.js test
+
+PATH: 
+  /opt/spark/bin:/home/loig7430/.nvm/versions/node/v10.16.3/bin:/home/loig7430/Android/Sdk/platform-tools:/home/loig7430/Android/Sdk/tools:/home/loig7430/bin:/home/loig7430/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.16.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/loig7430/eclipse-workspace/private_perso/projet_5/sampleJs/package.json: Unexpected token } in JSON at position 176
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:304:30)
+      at /usr/share/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "sampleJs",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "devDependencies": {
+      "mocha": "^6.2.2"
+    },
+    "scripts": {
+      "test": "mocha"
+  },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

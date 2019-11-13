@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/L10n3l/sampleJS.svg?branch=master)](https://travis-ci.org/L10n3l/sampleJS)
 [![Coverage Status](https://coveralls.io/repos/github/L10n3l/sampleJS/badge.svg?branch=master)](https://coveralls.io/github/L10n3l/sampleJS?branch=master)
+[![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=L10n3l:sampleJS&metric=alert_status)](https://sonarcloud.io/dashboard?id=L10n3l:sampleJS)
+
 
 # sampleJS
 
@@ -84,7 +86,7 @@ Avec Coveralls (démarche similaire à Travis)
 Encrypter le token [travis](https://docs.travis-ci.com/user/encryption-keys/#usage)
 apt install ruby ruby-dev
 sudo gem install travis
-travis encrypt 9935689581a42e602837938050853a2ac0ea52d1
+travis encrypt xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 copier/coller dans .travis.yml
 
@@ -100,7 +102,7 @@ addons:
   sonarcloud:
     organization: "l10n3l"
     token:
-      secure: ""
+      secure: "yyyyyyyyyyyyyyyyyyyyyyyyy"
 install:
   - npm install -g nyc coveralls mocha mocha-lcov-reporter 
 script:

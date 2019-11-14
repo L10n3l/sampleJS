@@ -66,6 +66,8 @@ script:
   - npm run coverage
 ```
 
+Plus d'infos : [Github/Coveralls](https://github.com/nickmerwin/node-coveralls)
+
 ## Ajout des badges dans le readme
 
 Cf 2 premières lignes du README.md

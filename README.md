@@ -1,6 +1,16 @@
 [![Build Status](https://travis-ci.org/L10n3l/sampleJS.svg?branch=master)](https://travis-ci.org/L10n3l/sampleJS)
 [![Coverage Status](https://coveralls.io/repos/github/L10n3l/sampleJS/badge.svg?branch=master)](https://coveralls.io/github/L10n3l/sampleJS?branch=master)
+
 [![<Sonarcloud quality gate>](https://sonarcloud.io/api/project_badges/measure?project=L10n3l_sampleJS&metric=alert_status)](https://sonarcloud.io/dashboard?id=L10n3l_sampleJS)
+[![<Sonarcloud quality gate>](https://sonarcloud.io/api/project_badges/measure?project=L10n3l_sampleJS&metric=bugs)](https://sonarcloud.io/dashboard?id=L10n3l_sampleJS)
+[![<Sonarcloud quality gate>](https://sonarcloud.io/api/project_badges/measure?project=L10n3l_sampleJS&metric=code_smells)](https://sonarcloud.io/dashboard?id=L10n3l_sampleJS)
+[![<Sonarcloud quality gate>](https://sonarcloud.io/api/project_badges/measure?project=L10n3l_sampleJS&metric=coverage)](https://sonarcloud.io/dashboard?id=L10n3l_sampleJS)
+[![<Sonarcloud quality gate>](https://sonarcloud.io/api/project_badges/measure?project=L10n3l_sampleJS&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=L10n3l_sampleJS)
+[![<Sonarcloud quality gate>](https://sonarcloud.io/api/project_badges/measure?project=L10n3l_sampleJS&metric=ncloc)](https://sonarcloud.io/dashboard?id=L10n3l_sampleJS)
+[![<Sonarcloud quality gate>](https://sonarcloud.io/api/project_badges/measure?project=L10n3l_sampleJS&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=L10n3l_sampleJS)
+[![<Sonarcloud quality gate>](https://sonarcloud.io/api/project_badges/measure?project=L10n3l_sampleJS&metric=security_rating)](https://sonarcloud.io/dashboard?id=L10n3l_sampleJS)
+[![<Sonarcloud quality gate>](https://sonarcloud.io/api/project_badges/measure?project=L10n3l_sampleJS&metric=sqale_index)](https://sonarcloud.io/dashboard?id=L10n3l_sampleJS)
+[![<Sonarcloud quality gate>](https://sonarcloud.io/api/project_badges/measure?project=L10n3l_sampleJS&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=L10n3l_sampleJS)
 
 
 # sampleJS
@@ -68,16 +78,6 @@ script:
 
 Plus d'infos : [Github/Coveralls](https://github.com/nickmerwin/node-coveralls)
 
-## Ajout des badges dans le readme
-
-Cf 2 premières lignes du README.md
-
-## Fonctionnement
-
-A chaque push dans Github, les 2 webhooks seront déclenchés : Travis et Coveralls et cela mettra à jour les badges.
-
-ATTENTION : les badges sont relatifs à une branche (si plusieurs branches alors modifier le README pour faire apparaître les badges par branche)
-
 ## Sonar
 
 Avec Coveralls (démarche similaire à Travis)
@@ -128,6 +128,17 @@ sonar.sources=.
 # Encoding of the source code. Default is default system encoding
 #sonar.sourceEncoding=UTF-8
 ```
+
+## Ajout des badges dans le readme
+
+Cf premières lignes du README.md
+Pour Sonar, il existe plusieurs badges : il suffit de changer la valeur du paramètre metric => must be one of: [bugs, code_smells, coverage, duplicated_lines_density, ncloc, sqale_rating, alert_status, reliability_rating, security_rating, sqale_index, vulnerabilities]
+
+## Fonctionnement
+
+A chaque push dans Github, les 2 webhooks seront déclenchés : Travis et Coveralls et cela mettra à jour les badges.
+
+ATTENTION : les badges sont relatifs à une branche (si plusieurs branches alors modifier le README pour faire apparaître les badges par branche)
 
 
 ## ESlint

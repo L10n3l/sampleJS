@@ -1,6 +1,10 @@
+**Build Travis**
 [![Build Status](https://travis-ci.org/L10n3l/sampleJS.svg?branch=master)](https://travis-ci.org/L10n3l/sampleJS)
+
+**Code coverage Coveralls**
 [![Coverage Status](https://coveralls.io/repos/github/L10n3l/sampleJS/badge.svg?branch=master)](https://coveralls.io/github/L10n3l/sampleJS?branch=master)
 
+**SonarCloud**
 [![<Sonarcloud quality gate>](https://sonarcloud.io/api/project_badges/measure?project=L10n3l_sampleJS&metric=alert_status)](https://sonarcloud.io/dashboard?id=L10n3l_sampleJS)
 [![<Sonarcloud quality gate>](https://sonarcloud.io/api/project_badges/measure?project=L10n3l_sampleJS&metric=bugs)](https://sonarcloud.io/dashboard?id=L10n3l_sampleJS)
 [![<Sonarcloud quality gate>](https://sonarcloud.io/api/project_badges/measure?project=L10n3l_sampleJS&metric=code_smells)](https://sonarcloud.io/dashboard?id=L10n3l_sampleJS)
@@ -132,6 +136,7 @@ sonar.sources=.
 ## Ajout des badges dans le readme
 
 Cf premières lignes du README.md
+
 Pour Sonar, il existe plusieurs badges : il suffit de changer la valeur du paramètre metric => must be one of: [bugs, code_smells, coverage, duplicated_lines_density, ncloc, sqale_rating, alert_status, reliability_rating, security_rating, sqale_index, vulnerabilities]
 
 ## Fonctionnement

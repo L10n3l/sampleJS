@@ -145,6 +145,7 @@ Pour Sonar, il existe plusieurs badges : il suffit de changer la valeur du param
 ## Fonctionnement
 
 A chaque push dans Github, les 2 webhooks seront déclenchés : Travis et Coveralls et cela mettra à jour les badges.
+Conernant Sonar, c'est le contenu du fichier .travis.yml qui déclenche l'analyse (sonar-scanner).
 
 ATTENTION : les badges sont relatifs à une branche (si plusieurs branches alors modifier le README pour faire apparaître les badges par branche)
 

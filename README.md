@@ -91,7 +91,7 @@ Plus d'infos : [Github/Coveralls](https://github.com/nickmerwin/node-coveralls)
 
 Avec Coveralls (démarche similaire à Travis)
 * Se connecter à [SonarCloud](https://sonarcloud.io/)  avec les identifiants Github
-* Autoriser Coveralls sur Gitbub
+* Autoriser Sonar sur Gitbub
 * Sélectionner le repo à utiliser
 
 Encrypter le token [travis](https://docs.travis-ci.com/user/encryption-keys/#usage) et le coller dans .travis.yml

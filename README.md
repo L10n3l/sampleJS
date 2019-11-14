@@ -190,3 +190,10 @@ Dans le repo, modifier le fichier package.json
     "coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
   }
 ```
+
+Lancer le lint
+
+```sh
+npm run lint
+``` 
+

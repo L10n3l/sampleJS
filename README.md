@@ -97,7 +97,7 @@ Encrypter le token [travis](https://docs.travis-ci.com/user/encryption-keys/#usa
 ```sh
 apt install ruby ruby-dev
 sudo gem install travis
-travis encrypt <token fourni ans Soanr Cloud>
+travis encrypt <token fourni par Sonar Cloud>
 ```
 
 Dans le repo, modifier le fichier .travis.yml

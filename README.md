@@ -22,7 +22,9 @@
 
 # sampleJS
 
-## Prerequis (node modules pour le build et la couverture de tests)
+Montrer l'utulisation des badges pour les build et tests avec Travis, Coveralls et Soanr (SonarCloud).
+
+## Prérequis (node modules pour le build et la couverture de tests)
 * mocha
 * mocha-lcov-reporter
 * nyc

@@ -22,7 +22,7 @@
 
 # sampleJS
 
-Montrer l'utulisation des badges pour les build et tests avec Travis, Coveralls et Sonar (SonarCloud).
+Montrer l'utilisation des badges pour les build et tests avec Travis, Coveralls et Sonar (SonarCloud).
 
 ## Prérequis (node modules pour le build et la couverture de tests)
 * mocha

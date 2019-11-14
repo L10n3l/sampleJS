@@ -85,13 +85,13 @@ Avec Coveralls (démarche similaire à Travis)
 * Autoriser Coveralls sur Gitbub
 * Sélectionner le repo à utiliser
 
-Encrypter le token [travis](https://docs.travis-ci.com/user/encryption-keys/#usage)
+Encrypter le token [travis](https://docs.travis-ci.com/user/encryption-keys/#usage) et le coller dans .travis.yml
+
+```sh
 apt install ruby ruby-dev
 sudo gem install travis
-travis encrypt xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-copier/coller dans .travis.yml
-
+travis encrypt <token fourni ans Soanr Cloud>
+```
 
 Dans le repo, modifier le fichier .travis.yml
 
@@ -104,7 +104,7 @@ addons:
   sonarcloud:
     organization: "l10n3l"
     token:
-      secure: "yyyyyyyyyyyyyyyyyyyyyyyyy"
+      secure: "<token encrypté>"
 install:
   - npm install -g nyc coveralls mocha mocha-lcov-reporter 
 script:

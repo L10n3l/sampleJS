@@ -121,7 +121,7 @@ script:
   - sonar-scanner
 ```
 
-Crééer un fichier sonar-project.properties
+Créer un fichier sonar-project.properties
 
 ```sh
 sonar.projectKey=<pour cet exemple, L10n3l_sampleJS>

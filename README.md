@@ -111,7 +111,7 @@ node_js:
 dist: trusty
 addons:
   sonarcloud:
-    organization: "l10n3l"
+    organization: "<organisation du projet, dans le cas de ce projet l10n3l>"
     token:
       secure: "<token encrypté>"
 install:
@@ -122,12 +122,13 @@ script:
 ```
 
 Crééer un fichier sonar-project.properties
-sonar.projectKey=L10n3l_sampleJS
-sonar.organization=l10n3l
 
 ```sh
+sonar.projectKey=<pour cet exemple, L10n3l_sampleJS>
+sonar.organization=<pour cet exemple, l10n3l>
+
 # this is the name and version displayed in the SonarCloud UI.
-sonar.projectName=sampleJS
+sonar.projectName=<pour cet exemple, sampleJS>
 sonar.projectVersion=1.0
  
 # Path is relative to the sonar-project.properties file. Replace "\" by "/" on Windows.
@@ -159,7 +160,7 @@ ATTENTION : les badges sont relatifs à une branche (si plusieurs branches alors
 ESLint est, comme son nom l’indique, un linter, c’est-à-dire un outil qui analyse statiquement du code et vérifie que celui-ci respecte un certain nombre de règles.
 
 Initialisation (suppose eslint installé en global npm install eslint -g)
-Répondre aux question notamment framework react et environnement node 
+Répondre aux questions notamment framework react et environnement node 
 
 ```sh
 eslint --init
